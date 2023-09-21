@@ -2,7 +2,7 @@
 
 
 let myName =prompt("Enter your name", '');
-let myWeight =prompt(parseFloat("Enter your weight"));
+let myWeight =parseFloat(prompt("Enter your weight"));
 
 function myBodyWeight(name, weight){
     
